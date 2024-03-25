@@ -1,0 +1,34 @@
+
+.input{
+    width: 25rem;
+    height: 30px;
+    padding: 10PX;
+    border-radius: 10px;
+   
+
+}
+.gamecardcontainer{
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+    display: grid;
+    gap: 2px;
+    max-height: 20rem;
+    overflow:scroll;
+    
+}
+.gamecard li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gamecard img{
+    height: 100px;
+    width: 100px;
+}
+.gamecard h2{
+    font-size: small;
+}

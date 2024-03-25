@@ -1,0 +1,40 @@
+
+  .ul{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-gap:  1rem;
+    list-style: none;
+    
+  }
+  #main{
+    
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    
+  
+  }
+  .input{
+     background-color: black;
+     
+  }
+#section1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.recserch{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1300px;
+  margin-top: 20px;
+}
+.recserch h2{
+  color: rgb(104, 125, 230);
+ 
+}
+  

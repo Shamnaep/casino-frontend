@@ -1,0 +1,34 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    
+}
+
+.button{
+    background-color: red;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem ;
+    font-weight: bold;
+    
+}
+.button:hover{
+    background-color: rgb(233, 124, 124);
+}
+#main img{
+    margin: 2rem auto;
+}
+.parts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    align-items: center;
+ 
+}

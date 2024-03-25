@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  .container{
+    max-width: 1416px;
+    height: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  .header1{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 56px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-gap: 3rem;
+    
+  }
+  .casino{
+    font-size:2.3rem ;
+    font-weight: 600;
+    color: rgb(17, 52, 83);
+  }
+  .li{
+    text-decoration: none;
+    color: rgb(17, 52, 83);
+    font-weight: 600;
+  }
+  .explore{
+    background-color: #31BBFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: black;
+    text-decoration: none;
+  }
+  
