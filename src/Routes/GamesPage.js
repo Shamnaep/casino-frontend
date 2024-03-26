@@ -7,7 +7,7 @@ import SlotMachine from "./SlotMachine";
 
 export async function loader({params}) {
     const gameId=params.gameId
-    const res = await axios.get('http://localhost:3000/games/'+gameId)
+    const res = await axios.get('https://casino-backend.onrender.com/games/'+gameId)
     const game =res.data
     console.log(game)
    

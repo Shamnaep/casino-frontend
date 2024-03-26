@@ -6,7 +6,7 @@ import GamesCard from "../components/GamesCard/GamesCard";
 import SerchTerm from "../components/SerchTerm/SearchTerm";
 
 export async function loader(){
- const res = await axios.get('http://localhost:3000/games')
+ const res = await axios.get('https://casino-backend.onrender.com/games')
  const games= res.data
  return{games};
 

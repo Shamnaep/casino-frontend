@@ -85,7 +85,7 @@ const SlotMachine = () => {
         console.log(debugResults)
 
 
-        axios.post('http://localhost:3000/calculate-coins', debugResults
+        axios.post('https://casino-backend.onrender.com/calculate-coins', debugResults
         )
         
         .then(response => {
@@ -109,7 +109,7 @@ const SlotMachine = () => {
             </div>
             <div id="debug" className={styles.debug}>{debugText}</div>
             <button onClick={spinSlotMachine} className={styles.spinbutton}>Spin</button>
-            <h2>{win} </h2>
+            <h2>{win}</h2>
             <h3>balance: {balance}</h3>
         </div>
     );
