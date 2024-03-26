@@ -4,6 +4,8 @@ import axios from 'axios';
 import styles from './SlotMachine.module.css';
 
 const SlotMachine = () => {
+
+
     const [debugText, setDebugText] = useState('Rolling....');
 
      const reel1 = ["cherry", "lemon", "apple", "lemon", "banana", "banana", "lemon", "lemon"];
@@ -18,11 +20,6 @@ const SlotMachine = () => {
     const [balance,setBalance]=useState(20);
     const [win, setWin] = useState('Start and Win Coins');
     const roll = async (reel1, offset = 0) => {
-
-
-        
-
-
 
         const delta = (offset + 2) * num_icons + Math.round(Math.random() * num_icons);
         // console.log(delta % num_icons)
@@ -51,6 +48,7 @@ const SlotMachine = () => {
     };
 
     const spinSlotMachine = async () => {
+
         setBalance(prevBalance => prevBalance-1);
         const debugResults =[];
         // setDebugText('rolling...');
@@ -96,6 +94,7 @@ const SlotMachine = () => {
         .catch(error => {
             console.error('Error occurred while calculating coins:', error);
         });
+        
     };
     return (
         <div className={styles.slotmachine}>
@@ -111,7 +110,12 @@ const SlotMachine = () => {
             <button onClick={spinSlotMachine} className={styles.spinbutton}>Spin</button>
             <h2>{win}</h2>
             <h3>balance: {balance}</h3>
+           
+
         </div>
+
+       
+        
     );
 };
 

@@ -20,7 +20,16 @@ function RootLayout(props){
           </div>
         </header>
         <Outlet/>
-        <footer></footer> 
+        <footer>
+          <div  className={styles.footer}>
+            <p>Thank you for visiting my web page please login and come back again...
+              <p>Warm Regards, </p>
+              <p>Shamna Elambulavil
+              </p>
+            </p>
+          </div>
+          
+          </footer> 
         </>
     );
 }
